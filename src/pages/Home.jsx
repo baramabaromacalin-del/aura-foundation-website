@@ -45,10 +45,10 @@ const Home = () => {
           <div className="mission-text">
             <h2>Our Mission</h2>
             <p>
-              AURA Foundation operates on the fundamental belief that every girl and woman 
-              has the right to health, dignity, and a life free from violence. We strive to 
-              eradicate FGM by educating communities, providing safe havens, advocating for policy 
-              change, and supporting survivors through holistic care.
+              Female Initiatives Foundation was established with a simple belief: every girl deserves 
+              the chance to learn, grow and have a future of her own. We are committed to supporting 
+              women and girls in underserved communities, with a particular focus on access to education 
+              and the prevention of Female Genital Mutilation (FGM/C) and early and forced marriage.
             </p>
           </div>
           <div className="mission-stats">

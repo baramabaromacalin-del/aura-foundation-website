@@ -10,10 +10,10 @@ const Footer = () => {
       <div className="container footer-container">
         <div className="footer-section brand">
           <div className="footer-logo-wrapper">
-            <img src={logoImg} alt="AURA Foundation Logo" className="logo-img-footer" />
+            <img src={logoImg} alt="Female Initiatives Foundation Logo" className="logo-img-footer" />
           </div>
           <p className="footer-mission">
-            Eliminating Female Genital Mutilation: One Purposeful Step at a Time.
+            Every girl deserves the chance to learn, grow and have a future of her own.
           </p>
           <div className="social-links">
             <a href="#" className="social-icon" aria-label="Facebook">FB</a>
@@ -36,7 +36,7 @@ const Footer = () => {
         <div className="footer-section contact">
           <h3>Contact Info</h3>
           <ul>
-            <li><Mail size={18} /> info@aurafoundation.org</li>
+            <li><Mail size={18} /> info@femaleinitiatives.org</li>
             <li><MapPin size={18} /> 123 Hope Avenue, NY 10012</li>
           </ul>
         </div>
@@ -44,7 +44,7 @@ const Footer = () => {
       
       <div className="footer-bottom">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} AURA Foundation. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Female Initiatives Foundation. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

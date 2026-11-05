@@ -22,7 +22,7 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-container container">
         <Link to="/" className="navbar-logo" onClick={() => setIsOpen(false)}>
-          <img src={logoImg} alt="AURA Foundation Logo" className="logo-img" />
+          <img src={logoImg} alt="Female Initiatives Foundation Logo" className="logo-img" />
         </Link>
         
         <div className={`nav-menu ${isOpen ? 'active' : ''}`}>

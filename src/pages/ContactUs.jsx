@@ -53,7 +53,7 @@ const ContactUs = () => {
                 <Mail className="info-icon" size={24} />
                 <div>
                   <h4>Email Us</h4>
-                  <p>info@aurafoundation.org</p>
+                  <p>info@femaleinitiatives.org</p>
                 </div>
               </div>
               
