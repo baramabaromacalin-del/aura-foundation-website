@@ -88,14 +88,14 @@ const Home = () => {
                 <h3>Our Aim</h3>
               </div>
               <p>
-                To improve access to education for girls in underserved communities by helping them attend and remain in school, supporting educational resources and working towards building schools where they are needed.
+                Our aim is to improve access to education for girls in underserved communities by helping them attend and remain in school, supporting educational resources and working towards building schools where they are needed.
               </p>
               <p>
-                Protecting girls from FGM/C and early and forced marriage through community education and outreach, while ensuring survivors access long-term psychological, emotional, and specialist medical care—including reconstructive treatment.
+                We also aim to protect girls from FGM/C and early and forced marriage through community education and outreach, while ensuring that survivors can access the long-term psychological, emotional and specialist medical care they need. This includes working with qualified healthcare professionals to help make appropriate reconstructive treatment available to those who want it.
               </p>
-              <Link to="/about-us" className="read-more" style={{ marginTop: '10px', display: 'inline-flex', alignItems: 'center', gap: '6px', color: 'var(--primary-color)', fontWeight: '600' }}>
-                Learn more about our aim <ArrowRight size={16} />
-              </Link>
+              <p>
+                We want to work closely with families, community leaders, healthcare professionals and local organisations to make these plans a reality.
+              </p>
             </div>
 
             <div className="aim-vision-card">
@@ -106,14 +106,14 @@ const Home = () => {
                 <h3>Our Vision</h3>
               </div>
               <p>
-                A future where no girl is denied an education because of her gender, background or family circumstances—where girls complete their education, make their own choices, and build independent lives.
+                We envision a future where no girl is denied an education because of her gender, background or family circumstances.
               </p>
               <p>
-                Communities where girls are encouraged to learn, women are supported to move forward, and every survivor knows that she does not have to face her journey alone.
+                A future where girls can complete their education, make their own choices and build independent lives; where harmful practices such as FGM/C and early marriage are no longer part of their future; and where survivors are listened to, supported and able to access the care they deserve.
               </p>
-              <Link to="/about-us" className="read-more" style={{ marginTop: '10px', display: 'inline-flex', alignItems: 'center', gap: '6px', color: 'var(--primary-color)', fontWeight: '600' }}>
-                Explore our full vision <ArrowRight size={16} />
-              </Link>
+              <p>
+                We want to see communities where girls are encouraged to learn, women are supported to move forward, and every survivor knows that she does not have to face her journey alone.
+              </p>
             </div>
           </div>
         </div>

@@ -48,8 +48,8 @@ const AboutUs = () => {
       <section className="aim-vision-section section-white">
         <div className="container">
           <div className="section-header center">
-            <h2>Our Purpose In Action</h2>
-            <p className="subtitle">Driven by clear aims and an uncompromising vision for every girl's future.</p>
+            <h2>Our Aim & Vision</h2>
+            <p className="subtitle">Committed to education, protection, healing, and lasting community change.</p>
           </div>
 
           <div className="aim-vision-grid">
