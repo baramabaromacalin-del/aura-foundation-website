@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Shield, Heart, Users } from 'lucide-react';
+import { ArrowRight, Shield, Heart, Users, Target, Eye } from 'lucide-react';
 import DonateSection from '../components/DonateSection';
 import './Home.css';
 
@@ -66,6 +66,54 @@ const Home = () => {
               <Users className="stat-icon" size={40} />
               <h3>Education</h3>
               <p>Community outreach to change deep-rooted norms</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Aim & Vision Section */}
+      <section className="aim-vision-section section-light" style={{ padding: '60px 0' }}>
+        <div className="container">
+          <div className="section-header center">
+            <h2>Our Aim & Vision</h2>
+            <p className="subtitle">Working towards systemic change, quality education, and lasting dignity.</p>
+          </div>
+
+          <div className="aim-vision-grid">
+            <div className="aim-vision-card">
+              <div className="aim-vision-header">
+                <div className="aim-vision-icon-wrap">
+                  <Target size={28} />
+                </div>
+                <h3>Our Aim</h3>
+              </div>
+              <p>
+                To improve access to education for girls in underserved communities by helping them attend and remain in school, supporting educational resources and working towards building schools where they are needed.
+              </p>
+              <p>
+                Protecting girls from FGM/C and early and forced marriage through community education and outreach, while ensuring survivors access long-term psychological, emotional, and specialist medical care—including reconstructive treatment.
+              </p>
+              <Link to="/about-us" className="read-more" style={{ marginTop: '10px', display: 'inline-flex', alignItems: 'center', gap: '6px', color: 'var(--primary-color)', fontWeight: '600' }}>
+                Learn more about our aim <ArrowRight size={16} />
+              </Link>
+            </div>
+
+            <div className="aim-vision-card">
+              <div className="aim-vision-header">
+                <div className="aim-vision-icon-wrap">
+                  <Eye size={28} />
+                </div>
+                <h3>Our Vision</h3>
+              </div>
+              <p>
+                A future where no girl is denied an education because of her gender, background or family circumstances—where girls complete their education, make their own choices, and build independent lives.
+              </p>
+              <p>
+                Communities where girls are encouraged to learn, women are supported to move forward, and every survivor knows that she does not have to face her journey alone.
+              </p>
+              <Link to="/about-us" className="read-more" style={{ marginTop: '10px', display: 'inline-flex', alignItems: 'center', gap: '6px', color: 'var(--primary-color)', fontWeight: '600' }}>
+                Explore our full vision <ArrowRight size={16} />
+              </Link>
             </div>
           </div>
         </div>

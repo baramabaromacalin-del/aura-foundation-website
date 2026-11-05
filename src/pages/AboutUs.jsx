@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { GraduationCap, Shield, Heart, Users } from 'lucide-react';
+import { GraduationCap, Shield, Heart, Users, Target, Eye } from 'lucide-react';
 import { ourStoryImg } from '../assets/images';
 import DonateSection from '../components/DonateSection';
 import './Pages.css';
@@ -39,6 +39,54 @@ const AboutUs = () => {
                 alt="Representative of Female Initiatives Foundation" 
                 className="content-image object-cover"
               />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Aim & Vision Section */}
+      <section className="aim-vision-section section-white">
+        <div className="container">
+          <div className="section-header center">
+            <h2>Our Purpose In Action</h2>
+            <p className="subtitle">Driven by clear aims and an uncompromising vision for every girl's future.</p>
+          </div>
+
+          <div className="aim-vision-grid">
+            <div className="aim-vision-card">
+              <div className="aim-vision-header">
+                <div className="aim-vision-icon-wrap">
+                  <Target size={28} />
+                </div>
+                <h3>Our Aim</h3>
+              </div>
+              <p>
+                Our aim is to improve access to education for girls in underserved communities by helping them attend and remain in school, supporting educational resources and working towards building schools where they are needed.
+              </p>
+              <p>
+                We also aim to protect girls from FGM/C and early and forced marriage through community education and outreach, while ensuring that survivors can access the long-term psychological, emotional and specialist medical care they need. This includes working with qualified healthcare professionals to help make appropriate reconstructive treatment available to those who want it.
+              </p>
+              <p>
+                We want to work closely with families, community leaders, healthcare professionals and local organisations to make these plans a reality.
+              </p>
+            </div>
+
+            <div className="aim-vision-card">
+              <div className="aim-vision-header">
+                <div className="aim-vision-icon-wrap">
+                  <Eye size={28} />
+                </div>
+                <h3>Our Vision</h3>
+              </div>
+              <p>
+                We envision a future where no girl is denied an education because of her gender, background or family circumstances.
+              </p>
+              <p>
+                A future where girls can complete their education, make their own choices and build independent lives; where harmful practices such as FGM/C and early marriage are no longer part of their future; and where survivors are listened to, supported and able to access the care they deserve.
+              </p>
+              <p>
+                We want to see communities where girls are encouraged to learn, women are supported to move forward, and every survivor knows that she does not have to face her journey alone.
+              </p>
             </div>
           </div>
         </div>
