@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { BookOpen, Megaphone, Scale, CheckCircle } from 'lucide-react';
+import { forbesSummitImg, podiumSpeechImg } from '../assets/images';
 import DonateSection from '../components/DonateSection';
 import './Pages.css';
 
@@ -22,9 +23,9 @@ const FemaleRights = () => {
           <div className="content-row">
             <div className="content-image-wrapper">
               <img 
-                src="https://images.unsplash.com/photo-1579208570378-8c9ce3237bc6?auto=format&fit=crop&q=80&w=800" 
-                alt="Women advocating for their rights" 
-                className="content-image"
+                src={forbesSummitImg} 
+                alt="Miss World Somalia speaking at the Forbes Leading Women Summit on ending FGM" 
+                className="content-image object-cover"
               />
             </div>
             <div className="content-text">
@@ -52,24 +53,53 @@ const FemaleRights = () => {
       <section className="content-section section-light">
         <div className="container">
           <div className="section-header center">
-            <h2>Our Strategic Focus</h2>
+            <h2>Our Advocacy Pillars</h2>
+            <p className="subtitle">Demanding accountability, empowering survivors, and driving legislative reform.</p>
           </div>
           
           <div className="mission-stats" style={{flexDirection: 'row', flexWrap: 'wrap'}}>
             <div className="stat-card" style={{flex: '1', minWidth: '300px'}}>
-              <BookOpen className="stat-icon" size={40} />
-              <h3>Community Dialogues</h3>
-              <p>Facilitating open conversations to challenge deep-rooted social norms and traditions.</p>
+              <Scale className="stat-icon" size={40} />
+              <h3>Legal Rights</h3>
+              <p>We work with lawmakers to advocate for stronger legislation banning FGM and protecting vulnerable women.</p>
             </div>
             <div className="stat-card" style={{flex: '1', minWidth: '300px'}}>
-              <Scale className="stat-icon" size={40} />
-              <h3>Legal Advocacy</h3>
-              <p>Working with local governments to enforce zero-tolerance laws protecting girls.</p>
+              <BookOpen className="stat-icon" size={40} />
+              <h3>Health Education</h3>
+              <p>Providing accurate medical information to communities to debunk myths surrounding the practice.</p>
             </div>
             <div className="stat-card" style={{flex: '1', minWidth: '300px'}}>
               <Megaphone className="stat-icon" size={40} />
-              <h3>Amplifying Voices</h3>
-              <p>Providing platforms for survivors to share their stories and inspire lasting change.</p>
+              <h3>Awareness Campaigns</h3>
+              <p>Running national and local campaigns to destigmatize the conversation around women's bodies.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="content-section">
+        <div className="container">
+          <div className="content-row reverse">
+            <div className="content-image-wrapper">
+              <img 
+                src={podiumSpeechImg} 
+                alt="Miss World Somalia delivering keynote address at international conference on bodily autonomy" 
+                className="content-image object-cover"
+              />
+            </div>
+            <div className="content-text">
+              <h2>Advocacy & Institutional Partnerships</h2>
+              <p>
+                True, lasting transformation requires engaging at every level of society—from community elders and healthcare providers to national policy makers and international summits.
+              </p>
+              <p>
+                Through sustained advocacy and high-level representation, Female Initiatives Foundation elevates the voices of survivors and underserved women, demanding actionable policies and dedicated resources to end FGM/C permanently.
+              </p>
+              <ul>
+                <li><CheckCircle className="li-icon" size={20} /> High-level representation at global leadership summits</li>
+                <li><CheckCircle className="li-icon" size={20} /> Collaboration with qualified medical professionals for survivor reconstruction</li>
+                <li><CheckCircle className="li-icon" size={20} /> Partnering with grassroots advocates to enforce legal protections</li>
+              </ul>
             </div>
           </div>
         </div>

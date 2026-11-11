@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Shield, Heart, Users, Target, Eye } from 'lucide-react';
+import { educationSupportImg, communityChildrenImg, forbesSummitImg } from '../assets/images';
 import DonateSection from '../components/DonateSection';
 import './Home.css';
 
@@ -137,29 +138,48 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Stories */}
+      {/* Featured Stories & Field Work */}
       <section className="stories-section section section-light">
         <div className="container">
           <div className="section-header center">
-            <h2>Voices of Strength</h2>
-            <p className="subtitle">Stories from the brave women leading change in their communities.</p>
+            <h2>Voices of Change</h2>
+            <p className="subtitle">Real action in our communities and on global stages for every girl's future.</p>
           </div>
           
           <div className="stories-grid">
             <div className="story-card">
-              <div className="story-bg story-bg-1"></div>
+              <div 
+                className="story-bg" 
+                style={{ backgroundImage: `url(${educationSupportImg})`, backgroundPosition: 'center top' }}
+              ></div>
               <div className="story-content">
-                <h3>Amina's Journey</h3>
-                <p>"Education gave me the voice I needed. Now, I educate other mothers in my village about the dangers of FGM."</p>
-                <Link to="/about-us" className="read-more">Read Full Story <ArrowRight size={14} /></Link>
+                <h3>Education & School Access</h3>
+                <p>"Equipping young girls in underserved areas with backpacks and school resources so they stay enrolled and protected."</p>
+                <Link to="/childrens-rights" className="read-more">Learn About School Initiatives <ArrowRight size={14} /></Link>
               </div>
             </div>
+
             <div className="story-card">
-              <div className="story-bg story-bg-2"></div>
+              <div 
+                className="story-bg" 
+                style={{ backgroundImage: `url(${communityChildrenImg})`, backgroundPosition: 'center 20%' }}
+              ></div>
               <div className="story-content">
-                <h3>Championing Change</h3>
-                <p>"When community leaders stand up against the practice, the entire village listens. We are seeing a new dawn."</p>
-                <Link to="/about-us" className="read-more">Read Full Story <ArrowRight size={14} /></Link>
+                <h3>Community Protection</h3>
+                <p>"Working directly with local families, village leaders, and children to create safe havens and end harmful traditions."</p>
+                <Link to="/childrens-rights" className="read-more">View Community Action <ArrowRight size={14} /></Link>
+              </div>
+            </div>
+
+            <div className="story-card">
+              <div 
+                className="story-bg" 
+                style={{ backgroundImage: `url(${forbesSummitImg})`, backgroundPosition: 'center top' }}
+              ></div>
+              <div className="story-content">
+                <h3>Global Leadership & Advocacy</h3>
+                <p>"Speaking at the Forbes Leading Women Summit to demand international resources, survivor care, and zero tolerance."</p>
+                <Link to="/female-rights" className="read-more">Read Our Advocacy Work <ArrowRight size={14} /></Link>
               </div>
             </div>
           </div>
