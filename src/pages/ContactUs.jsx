@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Mail, MapPin, Phone, Send } from 'lucide-react';
+import { Mail, Phone, Send } from 'lucide-react';
 import './Pages.css';
 
 const ContactUs = () => {
@@ -40,14 +40,6 @@ const ContactUs = () => {
               <p style={{marginBottom: '30px', color: '#666'}}>
                 Whether you want to partner with us, volunteer, or need support, our team is here for you.
               </p>
-              
-              <div className="info-item">
-                <MapPin className="info-icon" size={24} />
-                <div>
-                  <h4>Our Headquarters</h4>
-                  <p>123 Hope Avenue<br/>New York, NY 10012</p>
-                </div>
-              </div>
               
               <div className="info-item">
                 <Mail className="info-icon" size={24} />

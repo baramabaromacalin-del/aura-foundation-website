@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Mail, MapPin } from 'lucide-react';
+import { Mail } from 'lucide-react';
 import { logoImg } from '../assets/images';
 import './Footer.css';
 
@@ -37,7 +37,6 @@ const Footer = () => {
           <h3>Contact Info</h3>
           <ul>
             <li><Mail size={18} /> info@femaleinitiatives.org</li>
-            <li><MapPin size={18} /> 123 Hope Avenue, NY 10012</li>
           </ul>
         </div>
       </div>
