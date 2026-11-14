@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Mail, Phone, Send } from 'lucide-react';
+import { Mail, Clock, Send } from 'lucide-react';
 import './Pages.css';
 
 const ContactUs = () => {
@@ -50,10 +50,10 @@ const ContactUs = () => {
               </div>
               
               <div className="info-item">
-                <Phone className="info-icon" size={24} />
+                <Clock className="info-icon" size={24} />
                 <div>
-                  <h4>Call Us</h4>
-                  <p>+1 (555) 123-4567</p>
+                  <h4>Online Inquiries</h4>
+                  <p>Our team typically replies within 24–48 hours.</p>
                 </div>
               </div>
             </div>
